@@ -1,22 +1,20 @@
-<!doctype html>
-<html lang="bg">
-    <head>
-        <meta charset="UTF-8" />
+<!DOCTYPE html><html lang="bg"><head>
+        <meta charset="UTF-8">
 
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Krystallino" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Krystallino">
 
         <title>Krystallino</title>
 
-        <link rel="preload" href="/fonts/Manrope/Manrope-Light.woff2" as="font" type="font/woff2" crossorigin />
-        <link rel="preload" href="/fonts/Manrope/Manrope-Regular.woff2" as="font" type="font/woff2" crossorigin />
-        <link rel="preload" href="/fonts/Manrope/Manrope-Medium.woff2" as="font" type="font/woff2" crossorigin />
-        <link rel="preload" href="/fonts/Manrope/Manrope-SemiBold.woff2" as="font" type="font/woff2" crossorigin />
-        <link rel="preload" href="/fonts/Manrope/Manrope-Bold.woff2" as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="/fonts/Manrope/Manrope-Light.woff2" as="font" type="font/woff2" crossorigin="">
+        <link rel="preload" href="/fonts/Manrope/Manrope-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+        <link rel="preload" href="/fonts/Manrope/Manrope-Medium.woff2" as="font" type="font/woff2" crossorigin="">
+        <link rel="preload" href="/fonts/Manrope/Manrope-SemiBold.woff2" as="font" type="font/woff2" crossorigin="">
+        <link rel="preload" href="/fonts/Manrope/Manrope-Bold.woff2" as="font" type="font/woff2" crossorigin="">
 
-        <link rel="preload" href="/fonts/NotoSerifDisplay/NotoSerifDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="/fonts/NotoSerifDisplay/NotoSerifDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin="">
 
         <style type="text/css">
             @font-face {
@@ -89,14 +87,157 @@
             }
         </style>
 
-        <link rel="stylesheet" href="/src/sass/app.scss" />
+        <link rel="stylesheet" href="/src/sass/app.scss">
     </head>
 
     <body>
         <div id="app">
-            Започни работа тук. Успех! :)
+<!-- Nav -->
+    <nav>
+        <div class="nav-item">
+                <img src="images/krystallino-logo.png" alt="This is the logo">
+                <a href="#grid">Нашите десерти</a>
+                <a href="">Отзиви</a>
+                <a href="#questions">За поръчки и запитваня</a>
+                <a href="">Препоръки</a>
+                <a href="#media-header">Медиите за нас</a>
+                <a href="#footer">Контакти</a>
         </div>
+        </nav>
 
+<!-- Hero text -->
+<div class="hero">
+    <h1 class="hero-text">Десерти Kristallino – където <span class="hero-span"> изкуството </span> среща <span class="hero-span">десерта.</span></h1>
+    <p class="hero-subtext">Отдайте се на нашите изящни творения, изработени със страст и прецизност от световноизвестния сладкар Кристалин Илиев. Разгледайте нашите иновативни десерти, които обещават да измамят вкусовите ви рецептори и да запалят сетивата ви.</p>
+    <div class="hero-button-div">
+        <a href="#questions" type="submit" class="button-left">Направи заявка</a>
+        <a type="submit" class="button-right">Научи повече</a>
+    </div>
+</div>
+
+<!-- Products -->
+
+<section class="grid" id="grid">
+    <div class="display-products">
+        <div class="grid-item">
+            <div class="test">
+            <img class="card" src="images/straw.png" alt="strawberry yoghurt">
+            <img src="images/biography-line.png" alt="">
+            <h2 class="card-head">Ягоди и босилек</h2>
+            <p class="card-text">Отпразнувайте същността на лятото със зрели ягоди, съчетани с ароматен босилек, освежаващо удоволствие за небцето.</p>
+            <a href="" style="color: #CA7111;">НАУЧЕТЕ ПОВЕЧЕ</a>
+        </div>
+        </div>
+        <div class="grid-item">
+        <div class="test">
+            <img class="card" src="images/honey.png" alt="Honey yoghurt">
+            <img src="images/biography-line.png" alt="">
+            <h2 class="card-head">Кисело мляко, орехи и мед</h2>
+            <p class="card-text">Насладете се на перфектния баланс на кремообразно кисело мляко, хрупкави орехи и сладък мед в този райски десерт.</p>
+            <a href="" style="color: #CA7111;">НАУЧЕТЕ ПОВЕЧЕ</a>
+        </div>
+        </div>
+        <div class="grid-item">
+        <div class="test">
+            <img class="card" src="images/bacon.png" alt="Bacon and blueberyy yoghurt">
+            <img src="images/biography-line.png" alt="">
+            <h2 class="card-head">Бекон и боровинки</h2>
+            <p class="card-text">Впуснете се в кулинарно приключение с пикантен бекон и сладки боровинки, смела комбинация от вкусове, която се противопоставя на очакванията.</p>
+            <a href="" style="color: #CA7111;">НАУЧЕТЕ ПОВЕЧЕ</a>
+        </div>
+        </div>  
+        <div class="grid-item">
+        <div class="test">
+            <img class="card" src="images/sunflower.png" alt="Sunflower yoghurt">
+            <img src="images/biography-line.png" alt="">
+            <h2 class="card-head">Слънчогледови семки</h2>
+            <p class="card-text">Насладете се на неочакваната комбинация от кремообразна доброта и хрупкави слънчогледови семки, уникално лакомство, което ще ви накара да жадувате за още.</p>
+            <a href="" style="color: #CA7111;">НАУЧЕТЕ ПОВЕЧЕ</a>
+        </div>
+        </div>
+      </div>
+</section>
+<!-- Chef Kristalin -->
+
+<div class="chef">
+    <img src="images/kris.png" alt="">
+    <h1 id="chef">Chef</h1>
+    <h1 class="question-title">Кристалин</h1>
+    <img src="images/biography-line.png" alt="">
+    <p class="bland-text">За да направите поръчка или запитване за нашите десерти, моля свържете се с нас на:</p>
+</div>
+
+<!-- Form -->
+
+<div class="question-header" id="questions">
+    <h1 class="question-title">Запитвания и заявки</h1>
+    <img src="images/biography-line.png" alt="">
+    <p class="bland-text">За да направите поръчка или запитване за нашите десерти, моля свържете се с нас на:</p>
+</div>
+
+<div class="questions">
+<div class="info">
+    <p class="bland-text">Имейл:</p>
+    <p><strong>info@krystallino.com</strong></p>
+    <p class="bland-text">Адрес:</p>
+    <p><strong>123 Вкусната улица, Девин, България</strong></p>
+    <p class="bland-text">Телефон:</p>
+    <p><strong>+359 (899) 456-7890</strong></p>
+</div>
+
+<form class="form">
+    <label for="name">Вашите имена</label><br>
+    <input type="text" id="name" name="name" placeholder="Placeholder"><br><br>
+    <label for="number">Телефон за връзка</label><br>
+    <input type="number" id="number" name="number" placeholder="Placeholder"><br><br>
+    <label for="email">Имайл за контакти</label><br>
+    <input type="email" id="email" name="email" placeholder="Placeholder"><br><br>
+    <label for="question">Вашият въпрос или заявка</label><br>
+    <textarea name="message" rows="6" cols="30" placeholder="Placeholder"></textarea><br><br>
+    <input type="submit" value="Направи заявка" class="button-left">
+  </form>
+</div>
+
+<!-- Media -->
+<div class="media-header" id="media-header">
+    <h1 class="question-title">В медиите</h1>
+    <img src="images/biography-line.png" alt="">
+</div>
+<div class="media-text">
+    <p class="bland-text">В МЕДИИТЕ:</p>
+    <h1 class="media-head">Krystallino: Предефиниране на иновациите в десерта</h1>
+    <p class="bland-text">Източник: сп. Кулинарни изкушения</p>
+    <p class="media-info">Krystallino, ръководен от известния сладкар Кристалин Илчев, революционизира десертната сцена с иновативните си творения. От кремообразното кисело мляко, орехи и меден десерт до неочакваното съчетание на бекон и боровинки, всяко лакомство е щателно изработено, за да измами вкусовите пъпки и да разшири границите на вкуса. С фокус върху качествените съставки и вниманието към детайла, Krystallino продължава да завладява публиката и да предефинира иновациите в десертите.</p>
+    <input type="submit" value="Прочети статията" class="button-media">
+</div>
+<div class="media-text">
+    <p class="bland-text">В МЕДИИТЕ:</p>
+    <h1 class="media-head">Krystallino: A Sweet Success Story</h1>
+    <p class="bland-text">Източник: сп. Кулинарни изкушения</p>
+    <p class="media-info">Страстта на главния готвач Кристалин Илчев към сладкишите доведе до създаването на Krystallino, марка, известна със своята креативност и артистичност в приготвянето на десерти. С нарастваща база от фенове и разширяващо се меню от декадентски изкушения, Krystallino прави вълни в кулинарния свят. Отдадеността на главния готвач Кристалин на качеството и желанието й да предизвиква радост с всяка хапка затвърдиха мястото на Krystallino като сладка история на успеха в света на десертите.</p>
+    <input type="submit" value="Прочети статията" class="button-media">
+</div>
+
+
+<!-- Footer -->
+<div class="footer" id="footer">
+    <img style="display: block;width: 8%; margin: auto;" src="images/wallnuts.png" alt="">
+    <img src="images/krystallino-logo.png" alt="">
+    <div id="foo-text">
+        <p>info@krystallino.com</p>
+        <p>+359 (899) 456-7890</p>
+    </div>
+    <div class="footer-end">
+        <a href="">Нашите десерти</a>
+        <a href="">Отзиви</a>
+        <a href="#questions">За поръчки и запитваня</a>
+        <a href="">Препоръки</a>
+        <a href="">Медиите за нас</a>
+        <a href="">Контакти</a>
+    </div>
+    <a class="bland-text" href="#">Правила и условия |</a><a class="bland-text" href="#"> Политика за поверителност |</a><a class="bland-text" href="#">Copyright © 2024 Krystallino. Всички права запазени.</a>
+</div>
         <script type="module" src="/src/js/main.js"></script>
-    </body>
-</html>
+    
+
+</div></body></html>
